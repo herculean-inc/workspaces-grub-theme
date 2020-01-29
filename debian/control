@@ -1,11 +1,11 @@
-Source: pop-grub-theme
+Source: workspaces-grub-theme
 Section: admin
 Priority: optional
-Maintainer: Jeremy Soller <jeremy@system76.com>
-Uploaders: Ian Santopietro <ian@system76.com>
+Maintainer: Herculean Inc <hello@hercules.dev>
+Uploaders: Herculean Inc <hello@hercules.dev>
 Build-Depends: debhelper (>= 10)
 Standards-Version: 3.9.8
-Homepage: https://github.com/system76/pop-grub-theme
+Homepage: https://github.com/herculean-inc/workspaces-grub-theme
 
 Package: grub-pop-disable-splash
 Architecture: any-i386 any-amd64 any-powerpc any-ppc64 any-ppc64el any-sparc any-sparc64 any-mipsel any-ia64 any-arm any-arm64
@@ -16,7 +16,7 @@ Multi-Arch: foreign
 Description: GRand Unified Bootloader, version 2 (disable splash configuration)
  This disables splash in GRUB
 
-Package: grub-theme-pop
+Package: grub-theme-workspaces
 Architecture: any-i386 any-amd64 any-powerpc any-ppc64 any-ppc64el any-sparc any-sparc64 any-mipsel any-ia64 any-arm any-arm64
 Depends: ${misc:Depends}, grub-common
 Breaks: pop-default-settings (<< 2)
